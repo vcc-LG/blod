@@ -1,83 +1,77 @@
+---
 baseURL: http://something-fresh.org/
 languageCode: en-us
 title: Hugo Fresh Theme
 theme: hugo-fresh
-
 params:
   font:
-    name: "Open Sans"
-    sizes: [400,600]
+    name: Open Sans
+    sizes:
+    - 400
+    - 600
   hero:
-    # Main hero title
-    title: Manage. Deploy.
-    # Hero subtitle (optional)
-    subtitle: Lorem ipsum sit dolor amet is dummy text used by the typography industry
-    # Button text
+    title: Blod
+    subtitle: supporting ethical, social, and sustainable ventures
     buttontext: Get started
-    # Where the main hero button links to
     buttonlink: "#"
-    # Hero image (from /images/___)
     image: illustrations/worker.svg
-    # Footer logos (from /images/logos/clients/___.svg)
     clientlogos:
     - systek
     - tribe
     - kromo
     - infinite
     - gutwork
-  # Customizable navbar. For a dropdown, add a "sublinks" list.
   navbar:
   - title: Features
-    url: /
+    url: "/"
   - title: Pricing
-    url: /
+    url: "/"
   - title: Dropdown
     sublinks:
     - title: Dropdown item
-      url: /
+      url: "/"
     - title: Dropdown item
-      url: /
+      url: "/"
     - title: Dropdown item
-      url: /
+      url: "/"
   - title: Log in
-    url: /
+    url: "/"
   - title: Sign up
-    url: /
+    url: "/"
     button: true
   sidebar:
-    # Logo (from /images/logos/___.svg)
     logo: fresh-square
     sections:
     - title: User
       icon: user
       links:
       - text: Profile
-        url: /
+        url: "/"
       - text: Account
-        url: /
+        url: "/"
       - text: Settings
-        url: /
+        url: "/"
     - title: Messages
       icon: envelope
       links:
       - text: Inbox
-        url: /
+        url: "/"
       - text: Compose
-        url: /
+        url: "/"
     - title: Images
       icon: image
       links:
       - text: Library
-        url: /
+        url: "/"
       - text: Upload
-        url: /
+        url: "/"
     - title: Settings
       icon: cog
       links:
       - text: User settings
-        url: /
+        url: "/"
       - text: App settings
-        url: /
+        url: "/"
   section1:
     title: Great power comes
     subtitle: with great responsibility
@@ -85,31 +79,36 @@ params:
     - title: App builder
       icon: mouse-globe
       text: This is some explanatory text that is on two rows
-      url: /
+      url: "/"
       buttonText: Free trial
     - title: Cloud integration
       icon: laptop-cloud
       text: This is some explanatory text that is on two rows
-      url: /
+      url: "/"
       buttonText: Get started
     - title: Add-ons & plugins
       icon: plug-cloud
       text: This is some explanatory text that is on two rows
-      url: /
+      url: "/"
       buttonText: Get started
   section2:
     title: You're here because you want the best
     subtitle: And we know it
     features:
     - title: Powerful and unified interface
-      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
-      # Icon (from /images/illustrations/icons/___.svg)
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare
+        magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem.
+        Etiam finibus odio quis feugiat facilisis.
       icon: laptop-globe
     - title: Cross-device synchronisation
-      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare
+        magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem.
+        Etiam finibus odio quis feugiat facilisis.
       icon: doc-sync
     - title: Nomad system
-      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare
+        magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem.
+        Etiam finibus odio quis feugiat facilisis.
       icon: mobile-feed
   section3:
     title: One platform
@@ -122,24 +121,27 @@ params:
     subtitle: Lorem ipsum sit dolor amet is a dummy text used by typography industry
     clients:
     - name: Irma Walters
-      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
+      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim
+        appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret,
+        has quando suavitate at.
       job: Accountant
       img: 1
     - name: John Bradley
-      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
+      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim
+        appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret,
+        has quando suavitate at.
       job: Financial Analyst
       img: 2
     - name: Gary Blackman
-      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
+      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim
+        appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret,
+        has quando suavitate at.
       job: HR Manager
       img: 3
   footer:
-    # Logo (from /images/logos/___)
     logo: fresh-white-alt.svg
-    # Social media links (GitHub, Twitter, etc.). All are optional.
     socialmedia:
     - link: https://github.com/lucperkins/github-fresh
-      # Icons are from Font Awesome
       icon: github
     - link: https://dribbble.com/#
       icon: dribbble
@@ -152,28 +154,28 @@ params:
     bulmalogo: true
     product:
     - text: Discover features
-      link: /
+      link: "/"
     - text: Why choose our product?
-      link: /
+      link: "/"
     - text: Compare features
-      link: /
+      link: "/"
     - text: Our roadmap
-      link: /
+      link: "/"
     - text: Request features
-      link: /
+      link: "/"
     docs:
     - text: Get started
-      link: /
+      link: "/"
     - text: User guides
-      link: /
+      link: "/"
     - text: Admin guide
-      link: /
+      link: "/"
     - text: Developers
-      link: /
+      link: "/"
     blogroll:
     - text: Latest news
-      link: /
+      link: "/"
     - text: Tech articles
-      link: /
+      link: "/"
     - text: Video blog
-      link: /
+      link: "/"
